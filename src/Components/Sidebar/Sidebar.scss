@@ -1,0 +1,51 @@
+@import '../../SCSS/utitlities';
+@import '../../SCSS/colors';
+
+
+
+.sidebar{
+    position: fixed;
+    width: 14.5%;
+    min-height: 100vh;
+    background-color: $primaryColor;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    .top{
+        height: 60px;
+        @include flexCenter;
+        gap: 10px;
+        // background-color: black;
+        .logo_img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        .logo_profile_details{
+            font-size: 14px;
+            .name{
+                color: white;
+                font-weight: 700;
+            }
+            .roleName{
+                color: lightgray;
+            }
+        }
+    }
+
+    .bottom{
+        height: 60px;
+        font-size: 16px;
+        color: white;
+        font-weight: 700;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: center;
+        align-items: center;cursor: progress;
+        // background-color: black;
+    }
+}

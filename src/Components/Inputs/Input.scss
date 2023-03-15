@@ -1,0 +1,27 @@
+@import './../../SCSS/utitlities';
+@import './../../SCSS/colors';
+
+
+.input{
+
+    .form_holder{
+        
+        label{
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 500;
+            // color: #403F3F;
+            // color: darkslategrey;
+        }
+        
+        input{
+            height: 45px;
+            width: 355px;
+            text-indent: 10px;
+            border-radius: 4px;
+            background-color:#f5f5f5;
+            border: 1px solid  $primaryColor;
+            margin-top: 5px;
+        }
+    }
+}
